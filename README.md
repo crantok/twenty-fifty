@@ -1,12 +1,12 @@
-# DECC 2050 CALCULATOR TOOL
+# Korean 2050 CALCULATOR TOOL
 
-A web interface to the www.decc.gov.uk 2050 energy and climate change calculator
+A web interface to the Korean 2050 energy and climate change calculator
 
 Further detail on the project:
-http://www.decc.gov.uk/2050
+TBD
 
 Canonical source:
-http://github.com/decc/twenty-fifty
+TBD
 
 # INSTALATION
 

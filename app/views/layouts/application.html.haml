@@ -26,7 +26,7 @@
             = link_to "This air quality analysis is under development. Help us to make it better.","http://2050-calculator-tool-wiki.decc.gov.uk"
         - else 
           #message
-            = link_to "This is the DECC 2050 Pathways calculator. Click to find out more.","http://www.decc.gov.uk/2050"
+            = link_to "This is the Korean 2050 Pathways calculator.","#TBD"
       = render 'layouts/saved_pathways_dropdown'
       #share= link_to_function "Share", "twentyfifty.switchView('share')"
     = yield 
@@ -34,3 +34,4 @@
     #footer
       Based on excel #{ModelStructure.instance.reported_calculator_version.to_s.downcase}. The source code for this site is available under an open source licence from 
       = link_to "http://github.com/decc/twenty-fifty", "http://github.com/decc/twenty-fifty"
+      = link_to "TBD", "#TBD"
