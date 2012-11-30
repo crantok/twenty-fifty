@@ -1,11 +1,25 @@
 #classic_controls
   #demand
+    %h2 Transport
     %table
-      - structure.demand_choices.each do |choice|
+      - structure.demand_choices[0..5].each do |choice|
+        = classic_table_row_for_choice choice
+    %h2 Homes
+    %table
+      - structure.demand_choices[6..11].each do |choice|
+        = classic_table_row_for_choice choice
+    %h2 Business and Industry
+    %table
+      - structure.demand_choices[12..20].each do |choice|
         = classic_table_row_for_choice choice
   #supply
+    %h2 Electricity generation
     %table
-      - structure.supply_choices.each do |choice|
+      - structure.supply_choices[0..15].each do |choice|
+        = classic_table_row_for_choice choice
+    %h2 Bioenergy
+    %table
+      - structure.supply_choices[15..20].each do |choice|
         = classic_table_row_for_choice choice
   #other
     %table
